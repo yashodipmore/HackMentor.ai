@@ -81,17 +81,17 @@ export function AIChat({
         {messages.length === 0 && (
           <div className="text-center py-12">
             <Brain className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-            <p className="text-gray-600 font-medium mb-2">Hi! I'm your AI Mentor</p>
+            <p className="text-gray-600 font-medium mb-2">Hi! I&apos;m your AI Mentor</p>
             <p className="text-sm text-gray-500 mb-6">
               Share your screen or paste code for instant feedback
             </p>
             <div className="space-y-2 max-w-sm mx-auto">
               <div className="text-xs text-gray-400 text-left">Try asking:</div>
               <div className="text-sm bg-white p-3 rounded-lg border border-gray-200 text-left">
-                "Review this code: [paste code]"
+                &quot;Review this code: [paste code]&quot;
               </div>
               <div className="text-sm bg-white p-3 rounded-lg border border-gray-200 text-left">
-                "Explain async/await"
+                &quot;Explain async/await&quot;
               </div>
             </div>
           </div>

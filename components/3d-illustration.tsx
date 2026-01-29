@@ -150,8 +150,8 @@ export function CodeBlockIllustration() {
           {/* Code content */}
           <div className="p-4 font-mono text-sm bg-gray-50">
             <div className="text-purple-600">function <span className="text-blue-600">analyze</span>() {'{'}</div>
-            <div className="ml-4 text-gray-600">// AI analyzing...</div>
-            <div className="ml-4 text-green-600">return <span className="text-orange-600">"Perfect!"</span>;</div>
+            <div className="ml-4 text-gray-600">{'//'} AI analyzing...</div>
+            <div className="ml-4 text-green-600">return <span className="text-orange-600">&quot;Perfect!&quot;</span>;</div>
             <div className="text-purple-600">{'}'}</div>
           </div>
         </div>

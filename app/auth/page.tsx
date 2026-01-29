@@ -185,7 +185,7 @@ export default function AuthPage() {
               </Button>
 
               <p className="text-center text-sm text-gray-600 font-playfair">
-                Don't have an account?{' '}
+                Don&apos;t have an account?{' '}
                 <button
                   type="button"
                   onClick={() => setMode('signup')}
@@ -293,7 +293,7 @@ export default function AuthPage() {
               </Button>
 
               <p className="text-center text-sm text-gray-600 font-playfair">
-                Didn't receive code?{' '}
+                Didn&apos;t receive code?{' '}
                 <button
                   type="button"
                   onClick={() => setMode('signup')}
